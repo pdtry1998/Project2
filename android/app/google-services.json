@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "150535996360",
+    "project_id": "travel-in-phuket",
+    "storage_bucket": "travel-in-phuket.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150535996360:android:79cc20cba032d84ce236fd",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150535996360-80g11tkhp179ve0foub46p9kk6l51m0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-fv8z4sFo_ysAP1Ed1nJ6ll1bsqEDtHA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150535996360-80g11tkhp179ve0foub46p9kk6l51m0h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
