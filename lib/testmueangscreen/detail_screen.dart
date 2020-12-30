@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-
+//import 'package:flutter_svg/flutter_svg.dart';
 
 class DetailScreen extends StatefulWidget {
   final imagePath;
@@ -64,7 +63,7 @@ class _DetailScreenState extends State<DetailScreen> {
                                 children: [
                                   Icon(
                                     Icons.star,
-                                    color:Colors.orange,
+                                    color: Colors.orange,
                                     size: 22,
                                   ),
                                   SizedBox(
@@ -72,7 +71,7 @@ class _DetailScreenState extends State<DetailScreen> {
                                   ),
                                   Text(
                                     "Like",
-                                    style:TextStyle(
+                                    style: TextStyle(
                                       color: Colors.black,
                                       fontSize: 14,
                                       fontWeight: FontWeight.w600,
@@ -92,7 +91,7 @@ class _DetailScreenState extends State<DetailScreen> {
                                   ),
                                   Text(
                                     "Comments",
-                                    style:TextStyle(
+                                    style: TextStyle(
                                       color: Colors.black,
                                       fontSize: 14,
                                       fontWeight: FontWeight.w600,
@@ -197,7 +196,7 @@ class _DetailScreenState extends State<DetailScreen> {
               padding: const EdgeInsets.symmetric(horizontal: 32),
               child: Text(
                 "เกี่ยวกับ",
-                style:TextStyle(
+                style: TextStyle(
                     color: Colors.black,
                     fontSize: 19,
                     fontWeight: FontWeight.bold),
@@ -226,53 +225,53 @@ class _DetailScreenState extends State<DetailScreen> {
             // Container(
             //   width: double.infinity,
             //   padding: EdgeInsets.symmetric(horizontal: 32, vertical: 20),
-              // decoration: BoxDecoration(
-              //     borderRadius: BorderRadius.only(
-              //       topLeft: Radius.circular(60),
-              //       topRight: Radius.circular(60),
-              //     ),
-              //     color: Colors.white),
-              // child: Row(
-              //   children: [
-                  ///fees
-                 //  Column(
-                 //    crossAxisAlignment: CrossAxisAlignment.start,
-                 //    children: [
-                 //      Text(
-                 //        "Travelling Expense",
-                 //        style: TextStyle(
-                 //            color: Colors.black,
-                 //            fontSize: 14,
-                 //            fontWeight: FontWeight.w600),
-                 //      ),
-                 //      Text(
-                 //        "\$1000",
-                 //        style:TextStyle(
-                 //            color: Colors.black,
-                 //            fontSize: 32,
-                 //            fontWeight: FontWeight.w700),
-                 //      )
-                 //    ],
-                 //  ),
-                 //
-                 // // Spacer(),
+            // decoration: BoxDecoration(
+            //     borderRadius: BorderRadius.only(
+            //       topLeft: Radius.circular(60),
+            //       topRight: Radius.circular(60),
+            //     ),
+            //     color: Colors.white),
+            // child: Row(
+            //   children: [
+            ///fees
+            //  Column(
+            //    crossAxisAlignment: CrossAxisAlignment.start,
+            //    children: [
+            //      Text(
+            //        "Travelling Expense",
+            //        style: TextStyle(
+            //            color: Colors.black,
+            //            fontSize: 14,
+            //            fontWeight: FontWeight.w600),
+            //      ),
+            //      Text(
+            //        "\$1000",
+            //        style:TextStyle(
+            //            color: Colors.black,
+            //            fontSize: 32,
+            //            fontWeight: FontWeight.w700),
+            //      )
+            //    ],
+            //  ),
+            //
+            // // Spacer(),
 
-                  ///Button
-                  // FlatButton(
-                  //   child: Text(
-                  //     "Contact",
-                  //     style: TextStyle(
-                  //         color: Colors.white,
-                  //         fontSize: 14,
-                  //         fontWeight: FontWeight.w600),
-                  //   ),
-                  //   onPressed: () {},
-                  //   color: Colors.black,
-                  //   shape: RoundedRectangleBorder(
-                  //       borderRadius: BorderRadius.circular(14)),
-                  // )
-              //   ],
-              // ),
+            ///Button
+            // FlatButton(
+            //   child: Text(
+            //     "Contact",
+            //     style: TextStyle(
+            //         color: Colors.white,
+            //         fontSize: 14,
+            //         fontWeight: FontWeight.w600),
+            //   ),
+            //   onPressed: () {},
+            //   color: Colors.black,
+            //   shape: RoundedRectangleBorder(
+            //       borderRadius: BorderRadius.circular(14)),
+            // )
+            //   ],
+            // ),
             // )
           ],
         ),

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:project/constant.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:project/screens/home_screen/home.dart';
 
 class LoginWithFacebook extends StatelessWidget {
   const LoginWithFacebook({
@@ -15,7 +16,9 @@ class LoginWithFacebook extends StatelessWidget {
         shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(36),
             side: BorderSide(color: mFacebookColor)),
-        onPressed: () {},
+        onPressed: () => Navigator.of(context).pushReplacement(
+          MaterialPageRoute(builder: (context) => MyHomePage())
+        ),
         child: Container(
           padding: const EdgeInsets.symmetric(vertical: 5),
           child: Row(

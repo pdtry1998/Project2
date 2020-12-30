@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_layout_grid/flutter_layout_grid.dart';
-import 'package:flutter_svg/flutter_svg.dart';
+//import 'package:flutter_svg/flutter_svg.dart';
 import 'package:project/testmueangscreen/detail_screen.dart';
-
-
 
 // class TestMueang extends StatefulWidget {
 //   @override
@@ -133,7 +131,6 @@ import 'package:project/testmueangscreen/detail_screen.dart';
 //  }
 // }
 
-
 class TestMueang extends StatefulWidget {
   @override
   _TestMueangState createState() => _TestMueangState();
@@ -162,14 +159,14 @@ class _TestMueangState extends State<TestMueang> {
                         Text(
                           "PHUKET",
                           style: TextStyle(
-                              color:  Colors.grey,
+                              color: Colors.grey,
                               fontWeight: FontWeight.w500,
                               fontSize: 13),
                         ),
                         Text(
                           "อำเภอเมืองภูเก็ต",
                           style: TextStyle(
-                              color:  Colors.lightBlue,
+                              color: Colors.lightBlue,
                               fontWeight: FontWeight.bold,
                               fontSize: 38),
                         )
@@ -178,7 +175,6 @@ class _TestMueangState extends State<TestMueang> {
                   ),
 
                   ///Profile Picture
-
                 ],
               ),
             ),
@@ -254,14 +250,18 @@ class _TestMueangState extends State<TestMueang> {
                   ],
                   children: [
                     ///Lets make container for each elements
-                    getPlaceWidget("assets/images_destination/9.2.jpg").withGridPlacement(
-                        rowStart: 0, columnStart: 0, rowSpan: 2),
-                    getPlaceWidget("assets/images_destination/10.2.jpg").withGridPlacement(
-                        rowStart: 2, columnStart: 0, rowSpan: 1),
-                    getPlaceWidget("assets/images_destination/10.3.jpg").withGridPlacement(
-                        rowStart: 0, columnStart: 1, rowSpan: 1),
-                    getPlaceWidget("assets/images_destination/11.1.1.jpg").withGridPlacement(
-                        rowStart: 1, columnStart: 1, rowSpan: 2),
+                    getPlaceWidget("assets/images_destination/9.2.jpg")
+                        .withGridPlacement(
+                            rowStart: 0, columnStart: 0, rowSpan: 2),
+                    getPlaceWidget("assets/images_destination/10.2.jpg")
+                        .withGridPlacement(
+                            rowStart: 2, columnStart: 0, rowSpan: 1),
+                    getPlaceWidget("assets/images_destination/10.3.jpg")
+                        .withGridPlacement(
+                            rowStart: 0, columnStart: 1, rowSpan: 1),
+                    getPlaceWidget("assets/images_destination/11.1.1.jpg")
+                        .withGridPlacement(
+                            rowStart: 1, columnStart: 1, rowSpan: 2),
                   ],
                 ),
               ),
@@ -274,18 +274,18 @@ class _TestMueangState extends State<TestMueang> {
 
   Widget getPlaceWidget(imagePath) {
     return GestureDetector(
-      onTap: (){
-
+      onTap: () {
         ///For going on next screen
-        Navigator.push(context, MaterialPageRoute(
-          ///Send image path as we have setted it as tag of hero
-            builder: (context) => DetailScreen(imagePath)
-        ));
+        Navigator.push(
+            context,
+            MaterialPageRoute(
+
+                ///Send image path as we have setted it as tag of hero
+                builder: (context) => DetailScreen(imagePath)));
       },
       child: Container(
           decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(20),
-              color:  Colors.red),
+              borderRadius: BorderRadius.circular(20), color: Colors.red),
           child: Stack(
             children: [
               Hero(
@@ -312,8 +312,7 @@ class _TestMueangState extends State<TestMueang> {
                       style: TextStyle(
                           fontSize: 18,
                           color: Colors.white,
-                          fontWeight: FontWeight.w700
-                      ),
+                          fontWeight: FontWeight.w700),
                     ),
 
                     ///Rating
@@ -340,9 +339,7 @@ class _TestMueangState extends State<TestMueang> {
                 ),
               )
             ],
-          )
-      ),
+          )),
     );
   }
 }
-

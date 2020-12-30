@@ -10,7 +10,8 @@ import 'package:project/screens/home_screen/widget/interpolate_carousel.dart';
 import 'package:project/screens_login/home/home_screen.dart';
 import 'package:project/screens_login/login/login_screen.dart';
 import 'package:project/screens_login/splash_screen.dart';
-import 'package:project/screens_mueang/mueange_screen.dart';
+import 'package:project/screens_mueang/mueange.dart';
+
 import 'package:project/screens_shop/shop.dart';
 import 'package:project/testmueangscreen/testmueang_screen.dart';
 // import 'package:project/screens_mueang/mueange_screen.dart';
@@ -231,7 +232,7 @@ class CustomDrawer extends StatelessWidget {
 
           ListTile(
             onTap: (){
-              Navigator.of(context).push(MaterialPageRoute(builder: (context)=>TestMueang()));
+              Navigator.of(context).push(MaterialPageRoute(builder: (context)=>Mueange()));
               closeDrawer();
             },
             leading: Icon(Icons.account_balance),
@@ -244,7 +245,7 @@ class CustomDrawer extends StatelessWidget {
 
           ListTile(
             onTap: (){
-              Navigator.of(context).push(MaterialPageRoute(builder: (context)=>MueangeScreen()));
+              Navigator.of(context).push(MaterialPageRoute(builder: (context)=>Mueange()));
               closeDrawer();
             },
             leading: Icon(Icons.toys),

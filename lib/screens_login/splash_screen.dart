@@ -10,7 +10,6 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
-
   @override
   void initState() {
     var d = Duration(seconds: 3);
@@ -37,12 +36,13 @@ class _SplashScreenState extends State<SplashScreen> {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/images_login/5.jpg'), fit: BoxFit.cover,
+            image: AssetImage('assets/images_login/5.jpg'),
+            fit: BoxFit.cover,
           ),
         ),
-        child: Center(
-          child: SvgPicture.asset('assets/images/icon.svg'),
-        ),
+        // child: Center(
+        //   child: SvgPicture.asset('assets/images/icon.svg'),
+        // ),
       ),
     );
   }

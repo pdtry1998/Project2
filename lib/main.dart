@@ -3,6 +3,7 @@ import 'package:project/constant.dart';
 import 'package:project/screens_login/splash_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 
+
 // void main() => runApp(MyApp());
 
 void main() async {

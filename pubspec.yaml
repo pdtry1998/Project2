@@ -34,6 +34,9 @@ dependencies:
   flutter_layout_grid: ^0.10.1
   flutter_svg: ^0.17.4
   font_awesome_flutter: ^8.5.0
+  google_maps_flutter: ^0.5.19
+  carousel_pro: ^1.0.0
+
 
 
 dev_dependencies:
@@ -56,6 +59,8 @@ flutter:
     - assets/images_login/
     - assets/images_home/
     - assets/images_destination/
+    - assets/images_mueange/
+
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -70,15 +75,19 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-      - family: Cardo
-        fonts:
-          - asset: fonts/Cardo-Bold.ttf
-          - asset: fonts/Cardo-Regular.ttf
-          - asset: fonts/Cardo-Italic.ttf
+      #- family: Cardo
+       # fonts:
+       #   - asset: fonts/Cardo-Bold.ttf
+       #   - asset: fonts/Cardo-Regular.ttf
+      #    - asset: fonts/Cardo-Italic.ttf
 
-      - family: ProductSans
+      - family: ConcertOne-Regular
         fonts:
-          - asset: fonts/Product-Sans-Bold.ttf
+              - asset: Fonti/ConcertOne-Regular.ttf
+
+      #- family: ProductSans
+      #  fonts:
+       #   - asset: fonts/Product-Sans-Bold.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
