@@ -29,7 +29,7 @@ class _tMap_Market4State extends State<tMap_Market4> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('หาดในยาง'),
+        title: Text('หาดในยางงง'),
       ),
       body: GoogleMap(
           onMapCreated:_onMapCreated ,
