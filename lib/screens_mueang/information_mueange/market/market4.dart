@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_pro/carousel_pro.dart';
+import 'package:project/screens_mueang/information_mueange/market/widget/buttonmarket4.dart';
 import 'package:project/screens_mueang/information_mueange/place/widget/button1.dart';
 
 class Market4 extends StatefulWidget {
@@ -24,15 +25,15 @@ class _Market4State extends State<Market4> {
                       children: <Widget>[
                         Carousel(
                           images: [
-                            AssetImage('assets/images_mueange/2.1.1.jpg'),
+                            AssetImage('assets/images_mueange/3.4.1.jpg'),
                             // Photo from https://unsplash.com/photos/2d4lAQAlbDA
-                            AssetImage('assets/images_mueange/2.1.2.jpg'),
+                            AssetImage('assets/images_mueange/3.4.2.jpg'),
                             // Photo from https://unsplash.com/photos/FqqiAvJejto
-                            AssetImage('assets/images_mueange/2.1.3.jpg'),
+                            AssetImage('assets/images_mueange/3.4.3.jpg'),
                             // Photo from https://unsplash.com/photos/_-JR5TxKNSo
-                            AssetImage('assets/images_mueange/2.1.4.jpg'),
+                            AssetImage('assets/images_mueange/3.4.4.jpg'),
                             // Photo from https://unsplash.com/photos/K0rvMa1Y18A
-                            AssetImage('assets/images_mueange/2.1.5.jpg'),
+                            AssetImage('assets/images_mueange/3.4.5.jpg'),
                             // Photo from https://unsplash.com/photos/I_QC1JICzA0
                           ],
                           dotSize: 4.0,
@@ -68,7 +69,7 @@ class _Market4State extends State<Market4> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
                             Text(
-                              'นั่งเรือกอจ๊าน',
+                              'ตลาดนัดท้ายรถเจ้าฟ้า วาไรตี้',
                               style: TextStyle(
                                 fontSize: 20.0,
                                 fontWeight: FontWeight.bold,
@@ -77,7 +78,7 @@ class _Market4State extends State<Market4> {
                               ),
                               //style: TextStyle(fontFamily: 'ConcertOne-Regular'),
                             ),
-                            Text('\สะพานคลองบางใหญ่ ถนนรัตนโกสินทร์ 200 ปี อำเภอเมือง ' ,
+                            Text('\ถนนวิรัชหงษ์หยกอุทิศ ตรงข้ามกับวัดนาคา ' ,
                               style: TextStyle(
                                 color: Colors.grey,
                               ),
@@ -144,12 +145,12 @@ class _Market4State extends State<Market4> {
                     fontFamily: 'ConcertOne-Regular'),
               ),
             ),
-            about_place('        เรือกอจ๊านนี้มีเฉพาะที่ภูเก็ต ที่นี่มีท่าเรือกอจ๊านและ'
-                'มีวิธีการจับปลาแบบกอจ๊านโดยเฉพาะ เรือกอจ๊านเป็นเรือขนาดเล็กที่รับผู้โดยสารได้สูงสุด 8 คน ใช้ผ้าใบและไม้พายยาว เรือกอจ๊านจึงกลายเป็นเอกลักษณ์ของภูเก็ตไปแล้ว ปัจจุบันภูเก็ตได้จัดให้มีกิจกรรมล่องเรือกอจ๊านชมป่าชายเลนภายในเมือง ชมวิวทิวทัศน์ที่สวยงามเกินจะบรรยาย สำหรับการล่องเรือเที่ยวป่าชายเลนนั้นจะพาล่องแม่น้ำ ชมป่าชายเลน ลิงแสม และชมสัตว์นานาชนิดที่อยู่ภายในป่า ถ้าได้มาเที่ยวที่จังหวัดภูเก็ตแล้วต้องห้ามพลาดที่จะมาล่องเรือกอจ๊านเข้าป่าชายเลนเที่ยวกันเพลินๆ เลย'),
+            about_place('        ตลาดเจ้าฟ้าวาไรตี้ (ตลาดนัดนาคา) ถือเป็นอีกหนึ่งทำเลขายของที่มีลักษณะเป็นแบบตลาดเปิดท้ายหรือถนนคนเดิน มีพื้นที่ตั้งเดิมอยู่ท้ายวัดนาคา ต่อมาย้ายตำแหน่งมาอยู่ที่ตรงข้ามวัดนาคา ซึ่งเป็นที่มาของชื่อตลาด สำหรับกลุ่มลูกค้าจะมีวัยรุ่นจำนวนมาก รวมไปถึงนักท่องเที่ยวต่างชาติมาเดินช้อปฯ อย่างหลากหลายในราคาสบายๆ กระเป๋า เพราะแหล่งขายของแห่งนี้เป็นสถานที่ที่รวมไว้ซึ่งสินค้าที่มีราคาถูก ให้ผู้ที่มาเดินจับจ่ายใช้สอยสามารถจับต้องสินค้าได้ในราคาสบายๆ ชิลๆ เดินเล่นกันแบบเพลินๆ ท่ามกลางสินค้าตระการตา ที่ตรงใจกลุ่มลูกค้า'),
+            about_place('        ตลาดเจ้าฟ้าวาไรตี้ (ตลาดนัดนาคา) เป็นแหล่งช้อปปิ้งยอดนิยม สินค้าที่นำมาขายมีทั้งของใหม่และสินค้ามือสองทั้งเสื้อผ้า รองเท้า กระเป๋า ตุ๊กตา ของตกแต่งบ้านตลอดจนจานชาม เป็นต้น'),
             about_place2('เวลาเปิด-ปิด :'),
-            about_place('        เปิดทุกวัน '),
+            about_place('        วันเสาร์ - อาทิตย์ เวลา 16:00 - 22:00 '),
             about_place2('โทรศัพท์ :'),
-            about_place('        กรุณาติดต่อล่วงหน้าที่ 089 472 6413 (คุณสมคิด แซ่ฉั่ว)'),
+            about_place('        -'),
             Padding(
               padding: EdgeInsets.only(top: 20, bottom: 5, left: 14),
               child: Text(
@@ -160,7 +161,7 @@ class _Market4State extends State<Market4> {
                     fontFamily: 'ConcertOne-Regular'),
               ),
             ),
-            Button_1(),
+            ButtonMarket4(),
           ],
         ));
   }
@@ -209,7 +210,7 @@ class _Market4State extends State<Market4> {
                 boxShadow: [
                   BoxShadow(
                       offset: Offset(0, 1.0),
-                      color: Colors.grey.withOpacity(0.3),
+                      color: Colors.grey.withOpacity(0.9),
                       spreadRadius: 0.2)
                 ]),
             child: Column(
@@ -232,7 +233,7 @@ class _Market4State extends State<Market4> {
                 boxShadow: [
                   BoxShadow(
                       offset: Offset(0, 1.0),
-                      color: Colors.grey.withOpacity(0.3),
+                      color: Colors.grey.withOpacity(0.9),
                       spreadRadius: 0.2)
                 ]),
             child: Column(
@@ -255,7 +256,7 @@ class _Market4State extends State<Market4> {
                 boxShadow: [
                   BoxShadow(
                       offset: Offset(0, 1.0),
-                      color: Colors.grey.withOpacity(0.3),
+                      color: Colors.grey.withOpacity(0.9),
                       spreadRadius: 0.2)
                 ]),
             child: Column(

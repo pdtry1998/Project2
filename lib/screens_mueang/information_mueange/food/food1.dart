@@ -210,7 +210,7 @@ class _Food1State extends State<Food1> {
                 boxShadow: [
                   BoxShadow(
                       offset: Offset(0, 1.0),
-                      color: Colors.grey.withOpacity(0.3),
+                      color: Colors.grey.withOpacity(0.9),
                       spreadRadius: 0.2)
                 ]),
             child: Column(
@@ -233,7 +233,7 @@ class _Food1State extends State<Food1> {
                 boxShadow: [
                   BoxShadow(
                       offset: Offset(0, 1.0),
-                      color: Colors.grey.withOpacity(0.3),
+                      color: Colors.grey.withOpacity(0.9),
                       spreadRadius: 0.2)
                 ]),
             child: Column(
@@ -256,7 +256,7 @@ class _Food1State extends State<Food1> {
                 boxShadow: [
                   BoxShadow(
                       offset: Offset(0, 1.0),
-                      color: Colors.grey.withOpacity(0.3),
+                      color: Colors.grey.withOpacity(0.9),
                       spreadRadius: 0.2)
                 ]),
             child: Column(

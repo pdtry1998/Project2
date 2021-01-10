@@ -1,85 +1,25 @@
-import 'dart:ui';
-
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:project/constant.dart';
-import 'package:project/screens_login/login/widget/login_button.dart';
-import 'package:project/screens_login/login/widget/login_form.dart';
-import 'package:project/screens_login/login/widget/welcome_back.dart';
-import 'package:project/screens_shop/widget/button.dart';
-import 'package:project/screens_shop/widget/form.dart';
+
+class AddShop extends StatefulWidget {
+  @override
+  _AddShopState createState() => _AddShopState();
+}
+
+class _AddShopState extends State<AddShop> {
+
+  //Field
+
+  //Method
 
 
 
-class ShopScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: buildAppBar(context),
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: <Widget>[
-         // WelcomeBack(),
-          Form1(),
-          Container(
-            padding: const EdgeInsets.symmetric(horizontal: 30),
-            alignment: Alignment.centerRight,
-            // child: Text(
-            //   'Forgot password?',
-            //   style: TextStyle(color: mPrimaryColor),
-            // ),
-          ),
-          SizedBox(
-            height: 60,
-          ),
-         Button(),
-          Container(
-            padding: const EdgeInsets.symmetric(
-              horizontal: 30,
-              vertical: 16,
-            ),
-            alignment: Alignment.center,
-            // child: RichText(
-            //   text: TextSpan(style: TextStyle(color: Colors.grey), children: [
-            //     TextSpan(text: 'Don\'t have an account? '),
-            //     // TextSpan(
-            //     //   text: 'ฝากร้าน',
-            //     //   style: TextStyle(
-            //     //     color: mPrimaryColor,
-            //     //   ),
-            //     //   recognizer: TapGestureRecognizer()..onTap = () {
-            //     //     Navigator.pop(context);
-            //     //   },
-            //     // ),
-            //   ]
-            //   ),
-            // ),
-          )
-        ],
+      appBar: AppBar(backgroundColor: Colors.yellow.shade800,title: Text('ฝากร้าน'),
       ),
-    );
-  }
+      body: Text('data'),
 
-  AppBar buildAppBar(BuildContext context) {
-    return AppBar(
-      backgroundColor: mBackgroundColor,
-      elevation: 0,
-      centerTitle: true,
-      title: Text(
-        'กรอกข้อมูล',
-        style: TextStyle(
-          color: mPrimaryColor,
-        ),
-      ),
-      leading: IconButton(
-        icon: Icon(
-          Icons.arrow_back_ios,
-          color: mPrimaryTextColor,
-        ),
-        onPressed: () {
-          Navigator.pop(context);
-        },
-      ),
     );
   }
 }

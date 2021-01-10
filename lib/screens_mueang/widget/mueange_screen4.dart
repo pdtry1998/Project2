@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:project/screens_mueang/information_mueange/drink/widget/drink1.dart';
-import 'package:project/screens_mueang/information_mueange/drink/widget/drink2.dart';
-import 'package:project/screens_mueang/information_mueange/drink/widget/drink3.dart';
-import 'package:project/screens_mueang/information_mueange/drink/widget/drink4.dart';
+import 'package:project/screens_mueang/information_mueange/drink/drink1.dart';
+import 'package:project/screens_mueang/information_mueange/drink/drink2.dart';
+import 'package:project/screens_mueang/information_mueange/drink/drink3.dart';
+import 'package:project/screens_mueang/information_mueange/drink/drink4.dart';
+
 
 
 class MueangeDrink extends StatelessWidget {
@@ -22,8 +23,8 @@ class MueangeDrink extends StatelessWidget {
                 MaterialPageRoute(builder: (context) => Drink1()),
               );
             },
-            child: drink('assets/1.jpg', '\ถนนดีบุก', 'เย็นตาโฟสามพี่น้อง',
-              'บะหมี่ระดับตำนานภูเก็ต สูตรเด็ดต้องลอง', ),
+            child: drink('assets/images_mueange/4.1.1.jpg', 'ตลาดเหนือ', 'ฮัวพาน',
+              'ร้านนั่งชิลล์อีกร้านที่กว้างขวาง ', ),
             // Photo from https://unsplash.com/photos/2d4lAQAlbDA
           ),
           GestureDetector(
@@ -33,7 +34,8 @@ class MueangeDrink extends StatelessWidget {
                 MaterialPageRoute(builder: (context) => Drink2()),
               );
             },
-            child: drink('assets/6.jpg', '\$120/night', 'Hol', 'Geilo, Norway',
+            child: drink('assets/images_mueange/4.2.1.jpg', '\ชนะเจริญ', 'เพลินจิต ',
+              'ร้านชิลๆ ที่ดังเป็นอันดับต้นๆ ของเมืองภูเก็ต',
             ),
             // Photo from https://unsplash.com/photos/wHUFmZRMpLc
           ),
@@ -44,8 +46,8 @@ class MueangeDrink extends StatelessWidget {
                 MaterialPageRoute(builder: (context) => Drink3()),
               );
             },
-              child: drink('assets/10.jpg', '\$90/night', 'Berghaus Klondike',
-                'Engelberg, Switzerland', )
+              child: drink('assets/images_mueange/4.3.1.jpg', '\ถนนภูเก็ต', 'เสวนา ',
+                'ร้านนั่งชิลล์ พร้อมดนตรีสด สไตล์โฟล์คซอง', )
             // Photo from https://unsplash.com/photos/561igiTyvSk
           ),
           GestureDetector(
@@ -55,7 +57,7 @@ class MueangeDrink extends StatelessWidget {
                 MaterialPageRoute(builder: (context) => Drink4()),
               );
             },
-            child: drink('assets/6.jpg', '\$120/night', 'Hol', 'Geilo, Norway',
+            child: drink('assets/images_mueange/4.4.1.jpg', '\ถนนรัษฎา', 'เดอะ ไลบรารี่  ', 'กลางคืนเป็น ร้านเหล้า กลางวันเป็นร้านข้าว ่',
             ),
             // Photo from https://unsplash.com/photos/wHUFmZRMpLc
           ),

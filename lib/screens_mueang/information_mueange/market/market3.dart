@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_pro/carousel_pro.dart';
+import 'package:project/screens_mueang/information_mueange/market/widget/buttonmarket3.dart';
 import 'package:project/screens_mueang/information_mueange/place/widget/button1.dart';
 
 class Market3 extends StatefulWidget {
@@ -24,15 +25,15 @@ class _Market3State extends State<Market3> {
                       children: <Widget>[
                         Carousel(
                           images: [
-                            AssetImage('assets/images_mueange/2.1.1.jpg'),
+                            AssetImage('assets/images_mueange/3.3.1.jpg'),
                             // Photo from https://unsplash.com/photos/2d4lAQAlbDA
-                            AssetImage('assets/images_mueange/2.1.2.jpg'),
+                            AssetImage('assets/images_mueange/3.3.2.jpg'),
                             // Photo from https://unsplash.com/photos/FqqiAvJejto
-                            AssetImage('assets/images_mueange/2.1.3.jpg'),
+                            AssetImage('assets/images_mueange/3.3.3.jpg'),
                             // Photo from https://unsplash.com/photos/_-JR5TxKNSo
-                            AssetImage('assets/images_mueange/2.1.4.jpg'),
+                            AssetImage('assets/images_mueange/3.3.4.jpg'),
                             // Photo from https://unsplash.com/photos/K0rvMa1Y18A
-                            AssetImage('assets/images_mueange/2.1.5.jpg'),
+                            AssetImage('assets/images_mueange/3.3.5.jpg'),
                             // Photo from https://unsplash.com/photos/I_QC1JICzA0
                           ],
                           dotSize: 4.0,
@@ -68,7 +69,7 @@ class _Market3State extends State<Market3> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
                             Text(
-                              'นั่งเรือกอจ๊าน',
+                              'ตลาดปล่อยของ',
                               style: TextStyle(
                                 fontSize: 20.0,
                                 fontWeight: FontWeight.bold,
@@ -77,7 +78,7 @@ class _Market3State extends State<Market3> {
                               ),
                               //style: TextStyle(fontFamily: 'ConcertOne-Regular'),
                             ),
-                            Text('\สะพานคลองบางใหญ่ ถนนรัตนโกสินทร์ 200 ปี อำเภอเมือง ' ,
+                            Text('\ ลานเพลิน Lime Light ห้างใหม่ใจกลางเมือง ถนนดีบุกตัดใหม่ ' ,
                               style: TextStyle(
                                 color: Colors.grey,
                               ),
@@ -144,12 +145,12 @@ class _Market3State extends State<Market3> {
                     fontFamily: 'ConcertOne-Regular'),
               ),
             ),
-            about_place('        เรือกอจ๊านนี้มีเฉพาะที่ภูเก็ต ที่นี่มีท่าเรือกอจ๊านและ'
-                'มีวิธีการจับปลาแบบกอจ๊านโดยเฉพาะ เรือกอจ๊านเป็นเรือขนาดเล็กที่รับผู้โดยสารได้สูงสุด 8 คน ใช้ผ้าใบและไม้พายยาว เรือกอจ๊านจึงกลายเป็นเอกลักษณ์ของภูเก็ตไปแล้ว ปัจจุบันภูเก็ตได้จัดให้มีกิจกรรมล่องเรือกอจ๊านชมป่าชายเลนภายในเมือง ชมวิวทิวทัศน์ที่สวยงามเกินจะบรรยาย สำหรับการล่องเรือเที่ยวป่าชายเลนนั้นจะพาล่องแม่น้ำ ชมป่าชายเลน ลิงแสม และชมสัตว์นานาชนิดที่อยู่ภายในป่า ถ้าได้มาเที่ยวที่จังหวัดภูเก็ตแล้วต้องห้ามพลาดที่จะมาล่องเรือกอจ๊านเข้าป่าชายเลนเที่ยวกันเพลินๆ เลย'),
+            about_place('        หลาดปล่อยของเปิดขึ้นครั้งแรกเมื่อวันที่ 22 กันยายน 2553  เป็นตลาดสำหรับปลดปล่อยสินค้าไอเดีย แฮนด์เมด ศิลปะ แฟชั่น เก่า-ใหม่ อาหาร การแสดง การแต่งกาย ไลฟ์สไตล์สถานที่ท่องเที่ยวสำหรับคนรักการจับจ่ายของคนภูเก็ตและเหล่านักท่องเที่ยวที่มาเยือน'),
+            about_place('        ที่ตลาดแห่งนี้จำหน่ายทั้งอาหารไทย อาหารพื้นเมือง รวมไปถึงอาหารนานาชาติมากกว่า 30 ชนิด ซึ่งผ่านการชิมและการันตีจากทีมงานหลาดปล่อยของมาแล้วเรียบร้อย เพื่อผู้บริโภคจะได้รับประทานอาหารที่ดี ๆ รสชาติอร่อย มีเอกลักษณ์เฉพาะตัวในแต่ละร้าน อาหารที่มีจำหน่ายในตลาด ได้แก่ กาแฟโบราณ, ทาโกะยากิ, เคบับ, จับไม้, เครป, ข้าวเหนียวหมู และขนมไทย ฯลฯ'),
             about_place2('เวลาเปิด-ปิด :'),
-            about_place('        เปิดทุกวัน '),
+            about_place('        วันพุธ - วันศุกร์ เวลา 16.30น.-22.30 น. '),
             about_place2('โทรศัพท์ :'),
-            about_place('        กรุณาติดต่อล่วงหน้าที่ 089 472 6413 (คุณสมคิด แซ่ฉั่ว)'),
+            about_place('        -'),
             Padding(
               padding: EdgeInsets.only(top: 20, bottom: 5, left: 14),
               child: Text(
@@ -160,7 +161,7 @@ class _Market3State extends State<Market3> {
                     fontFamily: 'ConcertOne-Regular'),
               ),
             ),
-            Button_1(),
+            ButtonMarket3(),
           ],
         ));
   }
@@ -209,7 +210,7 @@ class _Market3State extends State<Market3> {
                 boxShadow: [
                   BoxShadow(
                       offset: Offset(0, 1.0),
-                      color: Colors.grey.withOpacity(0.3),
+                      color: Colors.grey.withOpacity(0.9),
                       spreadRadius: 0.2)
                 ]),
             child: Column(
@@ -232,7 +233,7 @@ class _Market3State extends State<Market3> {
                 boxShadow: [
                   BoxShadow(
                       offset: Offset(0, 1.0),
-                      color: Colors.grey.withOpacity(0.3),
+                      color: Colors.grey.withOpacity(0.9),
                       spreadRadius: 0.2)
                 ]),
             child: Column(
@@ -255,7 +256,7 @@ class _Market3State extends State<Market3> {
                 boxShadow: [
                   BoxShadow(
                       offset: Offset(0, 1.0),
-                      color: Colors.grey.withOpacity(0.3),
+                      color: Colors.grey.withOpacity(0.9),
                       spreadRadius: 0.2)
                 ]),
             child: Column(

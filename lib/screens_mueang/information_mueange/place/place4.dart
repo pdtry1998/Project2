@@ -209,7 +209,7 @@ class _Places4State extends State<Places4> {
                 boxShadow: [
                   BoxShadow(
                       offset: Offset(0, 1.0),
-                      color: Colors.grey.withOpacity(0.3),
+                      color: Colors.grey.withOpacity(0.9),
                       spreadRadius: 0.2)
                 ]),
             child: Column(
@@ -232,7 +232,7 @@ class _Places4State extends State<Places4> {
                 boxShadow: [
                   BoxShadow(
                       offset: Offset(0, 1.0),
-                      color: Colors.grey.withOpacity(0.3),
+                      color: Colors.grey.withOpacity(0.9),
                       spreadRadius: 0.2)
                 ]),
             child: Column(
@@ -255,7 +255,7 @@ class _Places4State extends State<Places4> {
                 boxShadow: [
                   BoxShadow(
                       offset: Offset(0, 1.0),
-                      color: Colors.grey.withOpacity(0.3),
+                      color: Colors.grey.withOpacity(0.9),
                       spreadRadius: 0.2)
                 ]),
             child: Column(

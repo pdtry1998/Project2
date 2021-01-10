@@ -15,9 +15,9 @@ class _MapMarket1State extends State<MapMarket1> {
     setState(() {
       _markers.add(
         Marker(markerId:MarkerId('id-1'),
-            position:LatLng(7.8800541, 98.3898262),
+            position:LatLng(7.8847596, 98.3888222),
             infoWindow: InfoWindow(
-                title: 'เย็นตาโฟสามพี่น้อง',
+                title: 'ถนนคนเดินหลาดใหญ่',
                 snippet: 'ถึงแล้ว'
             )
         ),
@@ -29,13 +29,13 @@ class _MapMarket1State extends State<MapMarket1> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('เย็นตาโฟสามพี่น้อง'),
+        title: Text('ถนนคนเดินหลาดใหญ่'),
       ),
       body: GoogleMap(
           onMapCreated:_onMapCreated ,
           markers: _markers,
           initialCameraPosition:CameraPosition(
-            target: LatLng(7.8800541, 98.3898262),
+            target: LatLng(7.8847596, 98.3888222),
             zoom: 15.0,
           ) ),
     );

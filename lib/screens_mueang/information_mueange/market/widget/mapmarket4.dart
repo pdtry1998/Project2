@@ -15,9 +15,9 @@ class _MapMarket4State extends State<MapMarket4> {
     setState(() {
       _markers.add(
         Marker(markerId:MarkerId('id-1'),
-            position:LatLng(7.8800541, 98.3898262),
+            position:LatLng(7.8805478, 98.3655259),
             infoWindow: InfoWindow(
-                title: 'เย็นตาโฟสามพี่น้อง',
+                title: 'ตลาดนัดท้ายรถเจ้าฟ้า วาไรตี้',
                 snippet: 'ถึงแล้ว'
             )
         ),
@@ -29,13 +29,13 @@ class _MapMarket4State extends State<MapMarket4> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('เย็นตาโฟสามพี่น้อง'),
+        title: Text('ตลาดนัดท้ายรถเจ้าฟ้า วาไรตี้'),
       ),
       body: GoogleMap(
           onMapCreated:_onMapCreated ,
           markers: _markers,
           initialCameraPosition:CameraPosition(
-            target: LatLng(7.8800541, 98.3898262),
+            target: LatLng(7.8805478, 98.3655259),
             zoom: 15.0,
           ) ),
     );

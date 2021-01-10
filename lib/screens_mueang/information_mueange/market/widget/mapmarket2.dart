@@ -15,9 +15,9 @@ class _MapMarket2State extends State<MapMarket2> {
     setState(() {
       _markers.add(
         Marker(markerId:MarkerId('id-1'),
-            position:LatLng(7.8800541, 98.3898262),
+            position:LatLng(7.9068839, 98.3727735),
             infoWindow: InfoWindow(
-                title: 'เย็นตาโฟสามพี่น้อง',
+                title: 'ตลาดนัดชิลวา',
                 snippet: 'ถึงแล้ว'
             )
         ),
@@ -29,13 +29,13 @@ class _MapMarket2State extends State<MapMarket2> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('เย็นตาโฟสามพี่น้อง'),
+        title: Text('ตลาดนัดชิลวา'),
       ),
       body: GoogleMap(
           onMapCreated:_onMapCreated ,
           markers: _markers,
           initialCameraPosition:CameraPosition(
-            target: LatLng(7.8800541, 98.3898262),
+            target: LatLng(7.9068839, 98.3727735),
             zoom: 15.0,
           ) ),
     );

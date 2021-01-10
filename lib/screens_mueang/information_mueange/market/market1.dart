@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_pro/carousel_pro.dart';
+import 'package:project/screens_mueang/information_mueange/market/widget/buttonmarket1.dart';
 import 'package:project/screens_mueang/information_mueange/place/widget/button1.dart';
 
 class Market1 extends StatefulWidget {
@@ -24,15 +25,15 @@ class _Market1State extends State<Market1> {
                       children: <Widget>[
                         Carousel(
                           images: [
-                            AssetImage('assets/images_mueange/2.1.1.jpg'),
+                            AssetImage('assets/images_mueange/3.1.1.jpg'),
                             // Photo from https://unsplash.com/photos/2d4lAQAlbDA
-                            AssetImage('assets/images_mueange/2.1.2.jpg'),
+                            AssetImage('assets/images_mueange/3.1.2.jpg'),
                             // Photo from https://unsplash.com/photos/FqqiAvJejto
-                            AssetImage('assets/images_mueange/2.1.3.jpg'),
+                            AssetImage('assets/images_mueange/3.1.3.jpg'),
                             // Photo from https://unsplash.com/photos/_-JR5TxKNSo
-                            AssetImage('assets/images_mueange/2.1.4.jpg'),
+                            AssetImage('assets/images_mueange/3.1.4.jpg'),
                             // Photo from https://unsplash.com/photos/K0rvMa1Y18A
-                            AssetImage('assets/images_mueange/2.1.5.jpg'),
+                            AssetImage('assets/images_mueange/3.1.5.jpg'),
                             // Photo from https://unsplash.com/photos/I_QC1JICzA0
                           ],
                           dotSize: 4.0,
@@ -68,7 +69,7 @@ class _Market1State extends State<Market1> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
                             Text(
-                              'นั่งเรือกอจ๊าน',
+                              'ถนนคนเดินหลาดใหญ่',
                               style: TextStyle(
                                 fontSize: 20.0,
                                 fontWeight: FontWeight.bold,
@@ -77,7 +78,7 @@ class _Market1State extends State<Market1> {
                               ),
                               //style: TextStyle(fontFamily: 'ConcertOne-Regular'),
                             ),
-                            Text('\สะพานคลองบางใหญ่ ถนนรัตนโกสินทร์ 200 ปี อำเภอเมือง ' ,
+                            Text('\ถนนถลาง ตำบลตลาดใหญ่ อำเภอเมือง ' ,
                               style: TextStyle(
                                 color: Colors.grey,
                               ),
@@ -144,12 +145,11 @@ class _Market1State extends State<Market1> {
                     fontFamily: 'ConcertOne-Regular'),
               ),
             ),
-            about_place('        เรือกอจ๊านนี้มีเฉพาะที่ภูเก็ต ที่นี่มีท่าเรือกอจ๊านและ'
-                'มีวิธีการจับปลาแบบกอจ๊านโดยเฉพาะ เรือกอจ๊านเป็นเรือขนาดเล็กที่รับผู้โดยสารได้สูงสุด 8 คน ใช้ผ้าใบและไม้พายยาว เรือกอจ๊านจึงกลายเป็นเอกลักษณ์ของภูเก็ตไปแล้ว ปัจจุบันภูเก็ตได้จัดให้มีกิจกรรมล่องเรือกอจ๊านชมป่าชายเลนภายในเมือง ชมวิวทิวทัศน์ที่สวยงามเกินจะบรรยาย สำหรับการล่องเรือเที่ยวป่าชายเลนนั้นจะพาล่องแม่น้ำ ชมป่าชายเลน ลิงแสม และชมสัตว์นานาชนิดที่อยู่ภายในป่า ถ้าได้มาเที่ยวที่จังหวัดภูเก็ตแล้วต้องห้ามพลาดที่จะมาล่องเรือกอจ๊านเข้าป่าชายเลนเที่ยวกันเพลินๆ เลย'),
+            about_place('        ถนนคนเดินภูเก็ต หลาดใหญ่ หรือ Phuket Walking Street ที่จัดขึ้นบนถนนถลางรอบๆ จะล้อมไปด้วยอาคารสถาปัตยกรรมแบบ ชิโนโปรตุกีส ที่ผสมความเป็นศิลปะตะวันออกและตะวันตกเข้าไว้ด้วยกันอย่างสวยงามและลงตัว ถือว่าเป็นอีกเสน่ห์ของจังหวัดภูเก็ตเลยค่ะ ส่วนสินค้าที่มีมาขายนั้น ก็จะหลากหลายมาก ไม่ว่าจะเป็น อาหารพื้นเมือง เครื่องดื่ม ของทานเล่น ของคาว ของหวาน อาหารไทย อาหารฝรั่ง แม้กระทั่ง ของที่ระลึก และแน่นอนว่ามีการจัดดนตรีสดและการแสดงต่างๆ ตรงทางเดินให้นักท่องเที่ยวได้ชมกันอีกด้วย    โดยในทุกๆ ปีที่ หลาดใหญ่ จะมีการจัดถนนสายวัฒนธรรมขึ้น เพื่อดึงดูดให้นักท่องเที่ยวมาชมวิถีชีวิตของชาวภูเก็ต และเป็นการย้อนอดีตไปยังสมัยก่อน ให้ได้สัมผัสกันด้วยค่ะ นอกจากจะได้เดินซื้อของกินของใช้กันชิลๆ แล้ว ที่นี่ก็ยังมีมุมถ่ายรูปเยอะแยะมากมายเลยค่ะ ถ้าอยากได้รูปแนวสตรีทๆ แนะนำว่าต้องมาที่นี่เลย ยิ่งไปช่วงที่ตลาดเพิ่งเริ่มยิ่งดีเลย แสงกำลังสวย และคนจะไม่เยอะมาก '),
             about_place2('เวลาเปิด-ปิด :'),
-            about_place('        เปิดทุกวัน '),
+            about_place('        วันอาทิตย์ 16.00-22.00 น. '),
             about_place2('โทรศัพท์ :'),
-            about_place('        กรุณาติดต่อล่วงหน้าที่ 089 472 6413 (คุณสมคิด แซ่ฉั่ว)'),
+            about_place('         -'),
             Padding(
               padding: EdgeInsets.only(top: 20, bottom: 5, left: 14),
               child: Text(
@@ -160,7 +160,7 @@ class _Market1State extends State<Market1> {
                     fontFamily: 'ConcertOne-Regular'),
               ),
             ),
-            Button_1(),
+            ButtonMarket1(),
           ],
         ));
   }
@@ -209,7 +209,7 @@ class _Market1State extends State<Market1> {
                 boxShadow: [
                   BoxShadow(
                       offset: Offset(0, 1.0),
-                      color: Colors.grey.withOpacity(0.3),
+                      color: Colors.grey.withOpacity(0.9),
                       spreadRadius: 0.2)
                 ]),
             child: Column(
@@ -232,7 +232,7 @@ class _Market1State extends State<Market1> {
                 boxShadow: [
                   BoxShadow(
                       offset: Offset(0, 1.0),
-                      color: Colors.grey.withOpacity(0.3),
+                      color: Colors.grey.withOpacity(0.9),
                       spreadRadius: 0.2)
                 ]),
             child: Column(
@@ -255,7 +255,7 @@ class _Market1State extends State<Market1> {
                 boxShadow: [
                   BoxShadow(
                       offset: Offset(0, 1.0),
-                      color: Colors.grey.withOpacity(0.3),
+                      color: Colors.grey.withOpacity(0.9),
                       spreadRadius: 0.2)
                 ]),
             child: Column(

@@ -98,7 +98,7 @@ class _MueangeState extends State<Mueange> {
             Padding(
               padding: EdgeInsets.only(top: 10, left: 30, ),
               child: Text(
-                'แหล่งช้อปปิ้ง',
+                'ถนนคนเดิน',
                 style: TextStyle(
                     fontFamily: 'ConcertOne-Regular',
                     fontWeight: FontWeight.bold,

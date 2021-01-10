@@ -7,13 +7,17 @@ import 'package:project/constant.dart';
 import 'package:project/screens/home_screen/foldable_sidebar.dart';
 import 'package:project/screens/home_screen/widget/destination_carousel.dart';
 import 'package:project/screens/home_screen/widget/interpolate_carousel.dart';
+import 'package:project/screens_Thalang/thalang.dart';
+import 'package:project/screens_kathu/kathu.dart';
 import 'package:project/screens_login/home/home_screen.dart';
 import 'package:project/screens_login/login/login_screen.dart';
 import 'package:project/screens_login/splash_screen.dart';
 import 'package:project/screens_mueang/mueange.dart';
 
 import 'package:project/screens_shop/shop.dart';
+import 'package:project/screens_shop/show.dart';
 import 'package:project/testmueangscreen/testmueang_screen.dart';
+
 // import 'package:project/screens_mueang/mueange_screen.dart';
 // import 'package:project/testmueangscreen/testmueang_screen.dart';
 
@@ -219,7 +223,20 @@ class CustomDrawer extends StatelessWidget {
 
           ListTile(
             onTap: (){
-              Navigator.of(context).push(MaterialPageRoute(builder: (context)=>ShopScreen()));
+              Navigator.of(context).push(MaterialPageRoute(builder: (context)=>ShowList()));
+              closeDrawer();
+            },
+            leading: Icon(Icons.star),
+            title: Text("แนะนำ"),
+          ),
+          Divider(
+            height: 1,
+            color: Colors.grey,
+          ),
+
+          ListTile(
+            onTap: (){
+              Navigator.of(context).push(MaterialPageRoute(builder: (context)=>AddShop()));
               closeDrawer();
             },
             leading: Icon(Icons.add_circle),
@@ -245,11 +262,11 @@ class CustomDrawer extends StatelessWidget {
 
           ListTile(
             onTap: (){
-              Navigator.of(context).push(MaterialPageRoute(builder: (context)=>Mueange()));
+              Navigator.of(context).push(MaterialPageRoute(builder: (context)=>Kathu()));
               closeDrawer();
             },
             leading: Icon(Icons.toys),
-            title: Text("อำเภอกระทู้"),
+            title: Text("อำเภอกะทู้"),
           ),
           Divider(
             height: 1,
@@ -257,8 +274,9 @@ class CustomDrawer extends StatelessWidget {
           ),
 
           ListTile(
-            onTap: () {
-              debugPrint("Tapped Notifications");
+            onTap: (){
+              Navigator.of(context).push(MaterialPageRoute(builder: (context)=>Thalang()));
+              closeDrawer();
             },
             leading: Icon(Icons.notifications),
             title: Text("อำเภอถลาง"),

@@ -22,8 +22,8 @@ class MueangeMarket extends StatelessWidget {
                 MaterialPageRoute(builder: (context) => Market1()),
               );
             },
-            child: market('assets/1.jpg', '\ถนนดีบุก', 'เย็นตาโฟสามพี่น้อง',
-              'บะหมี่ระดับตำนานภูเก็ต สูตรเด็ดต้องลอง', ),
+            child: market('assets/images_mueange/3.1.1.jpg', '\ถนนถลาง', 'ถนนคนเดินหลาดใหญ่',
+              'ถนนคนเดินย่านเมืองเก่า ', ),
             // Photo from https://unsplash.com/photos/2d4lAQAlbDA
           ),
           GestureDetector(
@@ -33,7 +33,7 @@ class MueangeMarket extends StatelessWidget {
                 MaterialPageRoute(builder: (context) => Market2()),
               );
             },
-            child: market('assets/6.jpg', '\$120/night', 'Hol', 'Geilo, Norway',
+            child: market('assets/images_mueange/3.2.1.jpg', '\ถนนเยาวราช ', 'ตลาดนัดชิลวา', 'เดินเล่น เดินชิม เดินช็อป ในแบบชิลล์ๆ   ',
             ),
             // Photo from https://unsplash.com/photos/wHUFmZRMpLc
           ),
@@ -44,8 +44,8 @@ class MueangeMarket extends StatelessWidget {
                 MaterialPageRoute(builder: (context) => Market3()),
               );
             },
-              child: market('assets/10.jpg', '\$90/night', 'Berghaus Klondike',
-                'Engelberg, Switzerland', )
+              child: market('assets/images_mueange/3.3.1.jpg', '\ถนนดีบุก', 'ตลาดปล่อยของ',
+                'เดินชิลล์ พักผ่อนสบายๆ ตลาดนัดขึ้นชื่อ ', )
             // Photo from https://unsplash.com/photos/561igiTyvSk
           ),
           GestureDetector(
@@ -55,7 +55,7 @@ class MueangeMarket extends StatelessWidget {
                 MaterialPageRoute(builder: (context) => Market4()),
               );
             },
-            child: market('assets/6.jpg', '\$120/night', 'Hol', 'Geilo, Norway',
+            child: market('assets/images_mueange/3.4.1.jpg', '\ถนนวิรัชหงษ์หยก ', 'ตลาดนัดท้ายรถเจ้าฟ้า วาไรตี้ ', 'มาที่เดียวครบจบทุกอย่างที่อยากซื้ออยากกิน',
             ),
             // Photo from https://unsplash.com/photos/wHUFmZRMpLc
           ),

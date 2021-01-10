@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_pro/carousel_pro.dart';
+import 'package:project/screens_mueang/information_mueange/market/widget/buttonmarket2.dart';
 import 'package:project/screens_mueang/information_mueange/place/widget/button1.dart';
 
 class Market2 extends StatefulWidget {
@@ -24,15 +25,15 @@ class _Market2State extends State<Market2> {
                       children: <Widget>[
                         Carousel(
                           images: [
-                            AssetImage('assets/images_mueange/2.1.1.jpg'),
+                            AssetImage('assets/images_mueange/3.2.1.jpg'),
                             // Photo from https://unsplash.com/photos/2d4lAQAlbDA
-                            AssetImage('assets/images_mueange/2.1.2.jpg'),
+                            AssetImage('assets/images_mueange/3.2.2.jpg'),
                             // Photo from https://unsplash.com/photos/FqqiAvJejto
-                            AssetImage('assets/images_mueange/2.1.3.jpg'),
+                            AssetImage('assets/images_mueange/3.2.3.jpg'),
                             // Photo from https://unsplash.com/photos/_-JR5TxKNSo
-                            AssetImage('assets/images_mueange/2.1.4.jpg'),
+                            AssetImage('assets/images_mueange/3.2.4.jpg'),
                             // Photo from https://unsplash.com/photos/K0rvMa1Y18A
-                            AssetImage('assets/images_mueange/2.1.5.jpg'),
+                            AssetImage('assets/images_mueange/3.2.5.jpg'),
                             // Photo from https://unsplash.com/photos/I_QC1JICzA0
                           ],
                           dotSize: 4.0,
@@ -68,7 +69,7 @@ class _Market2State extends State<Market2> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
                             Text(
-                              'นั่งเรือกอจ๊าน',
+                              'ตลาดนัดชิลวา',
                               style: TextStyle(
                                 fontSize: 20.0,
                                 fontWeight: FontWeight.bold,
@@ -77,7 +78,7 @@ class _Market2State extends State<Market2> {
                               ),
                               //style: TextStyle(fontFamily: 'ConcertOne-Regular'),
                             ),
-                            Text('\สะพานคลองบางใหญ่ ถนนรัตนโกสินทร์ 200 ปี อำเภอเมือง ' ,
+                            Text('\ถนน เยาวราช ตำบล รัษฎา อำเภอเมือง ตั้งอยู่แถวสามกอง ' ,
                               style: TextStyle(
                                 color: Colors.grey,
                               ),
@@ -144,12 +145,11 @@ class _Market2State extends State<Market2> {
                     fontFamily: 'ConcertOne-Regular'),
               ),
             ),
-            about_place('        เรือกอจ๊านนี้มีเฉพาะที่ภูเก็ต ที่นี่มีท่าเรือกอจ๊านและ'
-                'มีวิธีการจับปลาแบบกอจ๊านโดยเฉพาะ เรือกอจ๊านเป็นเรือขนาดเล็กที่รับผู้โดยสารได้สูงสุด 8 คน ใช้ผ้าใบและไม้พายยาว เรือกอจ๊านจึงกลายเป็นเอกลักษณ์ของภูเก็ตไปแล้ว ปัจจุบันภูเก็ตได้จัดให้มีกิจกรรมล่องเรือกอจ๊านชมป่าชายเลนภายในเมือง ชมวิวทิวทัศน์ที่สวยงามเกินจะบรรยาย สำหรับการล่องเรือเที่ยวป่าชายเลนนั้นจะพาล่องแม่น้ำ ชมป่าชายเลน ลิงแสม และชมสัตว์นานาชนิดที่อยู่ภายในป่า ถ้าได้มาเที่ยวที่จังหวัดภูเก็ตแล้วต้องห้ามพลาดที่จะมาล่องเรือกอจ๊านเข้าป่าชายเลนเที่ยวกันเพลินๆ เลย'),
+            about_place('        ตลาดนัดชิลล์วา(Chillva Market) เป็นตลาดนัดน้องใหม่ของชาวภูเก็ตที่ได้รับความนิยมอย่างล้นหลาม เต็มไปด้วยบรรยากาศสบายๆ แบบชิลล์ๆ มีสินค้าและของกินต่างๆ มาวางขายมากมาย รวมถึงเวทีการแสดงต่างๆ ทั้งดนตรีสด ฟังเพลินๆ ไม่เงียบเหงา“ตลาดนัดชิลล์วา ภูเก็ต” ทำเลค้าขายในจังหวัดท่องเที่ยวเปิดในลักษณะของตลาดนัดกลางคืน ตกแต่งสถานที่สวยงาม เน้นการพักผ่อนหย่อนใจเป็นหลัก มากไปด้วยของขายที่ตอบโจทย์ทุกไลฟ์สไตล์ ไม่ว่าจะเป็นอาหาร เสื้อผ้า หรือสินค้าแฟชั่นอื่นๆ รองรับทุกการพบปะสังสรรค์ด้วยร้านอาหารหลากหลาย ทำให้ตลาดชิลล์วา ภูเก็ตแห่งนี้นับเป็นอีกหนึ่งทำเลทองทำเงินที่น่าสนใจ เหมาะสำหรับพ่อค้าแม่ค้าทุกคน'),
             about_place2('เวลาเปิด-ปิด :'),
-            about_place('        เปิดทุกวัน '),
+            about_place('        เปิดวัน จันทร์ - เสาร์ ตั้งแต่เวลา 16:00 - 22:00  '),
             about_place2('โทรศัพท์ :'),
-            about_place('        กรุณาติดต่อล่วงหน้าที่ 089 472 6413 (คุณสมคิด แซ่ฉั่ว)'),
+            about_place('         -'),
             Padding(
               padding: EdgeInsets.only(top: 20, bottom: 5, left: 14),
               child: Text(
@@ -160,7 +160,7 @@ class _Market2State extends State<Market2> {
                     fontFamily: 'ConcertOne-Regular'),
               ),
             ),
-            Button_1(),
+            ButtonMarket2(),
           ],
         ));
   }
@@ -209,7 +209,7 @@ class _Market2State extends State<Market2> {
                 boxShadow: [
                   BoxShadow(
                       offset: Offset(0, 1.0),
-                      color: Colors.grey.withOpacity(0.3),
+                      color: Colors.grey.withOpacity(0.9),
                       spreadRadius: 0.2)
                 ]),
             child: Column(
@@ -232,7 +232,7 @@ class _Market2State extends State<Market2> {
                 boxShadow: [
                   BoxShadow(
                       offset: Offset(0, 1.0),
-                      color: Colors.grey.withOpacity(0.3),
+                      color: Colors.grey.withOpacity(0.9),
                       spreadRadius: 0.2)
                 ]),
             child: Column(
@@ -255,7 +255,7 @@ class _Market2State extends State<Market2> {
                 boxShadow: [
                   BoxShadow(
                       offset: Offset(0, 1.0),
-                      color: Colors.grey.withOpacity(0.3),
+                      color: Colors.grey.withOpacity(0.9),
                       spreadRadius: 0.2)
                 ]),
             child: Column(
