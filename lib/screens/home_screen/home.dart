@@ -4,6 +4,7 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:project/constant.dart';
+import 'package:project/screens/home_screen/first/slider_first.dart';
 import 'package:project/screens/home_screen/foldable_sidebar.dart';
 import 'package:project/screens/home_screen/widget/destination_carousel.dart';
 import 'package:project/screens/home_screen/widget/interpolate_carousel.dart';
@@ -13,6 +14,7 @@ import 'package:project/screens_login/home/home_screen.dart';
 import 'package:project/screens_login/login/login_screen.dart';
 import 'package:project/screens_login/splash_screen.dart';
 import 'package:project/screens_mueang/mueange.dart';
+import 'package:project/screens_mueang/widget/mueange_screen1.dart';
 
 import 'package:project/screens_shop/shop.dart';
 import 'package:project/screens_shop/show.dart';
@@ -76,50 +78,54 @@ class _FirstScreenState extends State<FirstScreen> {
         children: <Widget>[
           Padding(
             padding: EdgeInsets.only(left:30.0,right: 120.0),
-            child: Text('ท่องเที่ยวในภูเก็ต',style: TextStyle(fontSize: 34.5,fontWeight: FontWeight.bold
+            child: Text('ท่องเที่ยวท่องถิ่นในภูเก็ต',style: TextStyle(fontSize: 34.5,fontWeight: FontWeight.bold
             ),),
           ),
           SizedBox(height: 10.0),
 
-          Positioned( // ช่องค้นหา
-            child: Container(
-              alignment: Alignment.center,
-              margin: EdgeInsets.symmetric(horizontal:kDefaultPadding),
-              padding: EdgeInsets.symmetric(horizontal:kDefaultPadding),
-            height: 54,
-              decoration: BoxDecoration(
-                  color:Colors.white,
-                borderRadius: BorderRadius.circular(20.0),
-                boxShadow: [
-                  BoxShadow(
-                    offset: Offset(0, 10),
-                    blurRadius: 50,
-                    color: mPrimaryColor.withOpacity(0.20),
-                  ),
-                ]
-              ),
-              child:Row(
-                children: <Widget>[
-                  Expanded(
-                    child: TextField(
-                      onChanged:(value) {},
-                      decoration: InputDecoration(
-                        hintText: "ค้นหา",
-                        hintStyle: TextStyle(
-                          color: mPrimaryColor.withOpacity(0.5),
-                        ),
-                        enabledBorder: InputBorder.none,
-                        focusedBorder: InputBorder.none,
-                       // suffixIcon:
-                      //  SvgPicture.asset("assets/images_home/search.svg"),
-                      ),
-                    ),
-                  ),
-                  SvgPicture.asset("assets/images_home/search.svg"),
-                ],
-              ) ,
-          ),),
-          SizedBox(height: 20.0), // ปุ่มดูทั้งหมด
+          Slider_First(),
+
+          // Positioned( // ช่องค้นหา
+          //   child: Container(
+          //     alignment: Alignment.center,
+          //     margin: EdgeInsets.symmetric(horizontal:kDefaultPadding),
+          //     padding: EdgeInsets.symmetric(horizontal:kDefaultPadding),
+          //   height: 54,
+          //     decoration: BoxDecoration(
+          //         color:Colors.white,
+          //       borderRadius: BorderRadius.circular(20.0),
+          //       boxShadow: [
+          //         BoxShadow(
+          //           offset: Offset(0, 10),
+          //           blurRadius: 50,
+          //           color: mPrimaryColor.withOpacity(0.20),
+          //         ),
+          //       ]
+          //     ),
+          //     child:Row(
+          //       children: <Widget>[
+          //         Expanded(
+          //           child: TextField(
+          //             onChanged:(value) {},
+          //             decoration: InputDecoration(
+          //               hintText: "ค้นหา",
+          //               hintStyle: TextStyle(
+          //                 color: mPrimaryColor.withOpacity(0.5),
+          //               ),
+          //               enabledBorder: InputBorder.none,
+          //               focusedBorder: InputBorder.none,
+          //              // suffixIcon:
+          //             //  SvgPicture.asset("assets/images_home/search.svg"),
+          //             ),
+          //           ),
+          //         ),
+          //         SvgPicture.asset("assets/images_home/search.svg"),
+          //       ],
+          //     ) ,
+          // ),),
+
+
+          SizedBox(height: 10.0), // ปุ่มดูทั้งหมด
           DestinationCarousel(), // ส่วนแนะนำของหน้าแรก
           SizedBox(height: 10.0),
           InterpolateCarousel(), //ส่วนเพิ่มเติมของหน้าแรก
